@@ -1,0 +1,11 @@
+#body-left{
+    position: fixed;
+    height: 100vh;
+    width: 220px;
+
+    background-color: aquamarine;
+}
+
+#body-right{
+    margin-left: 220px;
+}
