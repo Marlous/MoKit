@@ -1,11 +1,85 @@
+/* 整个页面左边固定的边栏 */
+/* 左边固定的边栏位置样式 */
 #body-left{
     position: fixed;
     height: 100vh;
     width: 220px;
-
-    background-color: aquamarine;
+    background-color: white;
+    box-shadow: 5px 0 10px 4px #EBEDEB;
 }
 
+/* 导航栏 */
+#nav img{
+    height: 160px;
+    width: 150px;
+}
+
+#nav a{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    color: #898989;
+    font-weight: bold;
+    border: solid 2px transparent;
+    border-radius: 20px;
+    width: 150px;
+}
+
+#nav a:hover{
+    color: white;
+    font-weight: bold;
+    background-color: #898989;
+    border-radius: 20px;
+    width: 140px;
+    transition: 200ms;
+}
+
+/* 空的 flex 成员 */
+#temp{
+    flex-grow: 1;
+}
+
+/* 页脚 */
+.contact{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 16px;
+}
+
+.contact img{
+    height: 20px;
+    width: 20px;
+}
+
+.contact a{
+    line-height: 20px;
+    font-weight: bold;
+    font-size: small;
+    color: gray;
+    text-decoration: none;
+}
+
+.copyright{
+    font-size: small;
+    color: gray;
+}
+
+
+/* 整个页面右边主体内容 */
+/* 右边主体内容样式 */
 #body-right{
     margin-left: 220px;
+    background-color: #F5F8F5;
+}
+
+/* 右边主体上面部分样式 */
+#body-right-top{
+    position: fixed;
+    height: 120px;
+    width: calc(100% - 220px);
+    background-color: black;
+}
+
+/* 右边主体下面部分样式 */
+#body-right-bottom{
+    padding-top: 100px;
 }

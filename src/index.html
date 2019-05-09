@@ -8,150 +8,174 @@
     <link rel="bookmark" href="img/favicon.ico">
     <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>MoKit</title>
 </head>
 
 <body class="text-center">
 
     <!--整个页面左边固定的导航栏-->
-    <div id="body-left">
-        <div class="d-flex flex-column p-3">
+    <div id="body-left" class="d-flex flex-column">
+        <!--导航栏-->
+        <div id="nav" class="d-flex flex-column p-3 align-items-center">
+            <img src="img/logo.png">
             <a class="nav-link" href="#">设计相关</a>
             <a class="nav-link" href="#">开发者</a>
-            <a class="nav-link" href="#">安全工具</a>
+            <a class="nav-link" href="#">白帽子黑客</a>
             <a class="nav-link" href="#">Link</a>
             <a class="nav-link" href="#">Link</a>
+        </div>
+        <!--空的 flex 成员-->
+        <div id="temp">
+        </div>
+        <!--页脚-->
+        <div id="footer" class="d-flex flex-column p-3 align-items-center">
+            <div class="contact">
+                <img src="img/profile.png">
+                <a href="https://marlous.github.io/home/" target="_blank" data-toggle="tooltip" data-placement="top"
+                    title="Marlous' Home">&nbsp;&nbsp;Home Page</a>
+            </div>
+            <div class="copyright">
+                <p>&nbsp;&nbsp;&copy;&nbsp;Marlous</p>
+            </div>
         </div>
     </div>
 
 
     <!--整个页面右边主体内容-->
     <div id="body-right">
-        <!--整个 body-right 网页最外层的容器，flex 布局-->
-        <div class="container-fluid h-100 mx-auto p-3 d-flex flex-column">
-
-            <!--header 为最外层容器的 flex 成员-->
-            <header class="d-flex flex-column p-3">
-                <div id="search-tab" class="d-flex flex-row flex-nowrap">
-                    <span>Google</span><span>Bing</span><span>DuckDuckGo</span>
-                </div>
-                <div id="search-bar" class="d-flex flex-row flex-nowrap">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="button">Go</button>
-                </div>
-            </header>
-
-            <!--main 为最外层容器的 flex 成员-->
-            <main class="d-flex flex-column p-3">
-                <!--第一个大的版面。在其中放一个个 item-->
-                <div class="board">
-                    <div class="boadr-title">
-                        <h2>设计相关</h2>
+        <!--整个页面右边主体上面部分-->
+        <div id="body-right-top">
+            <div class="container-fluid h-100 mx-auto p-3 d-flex flex-column">
+                <header class="d-flex flex-column p-3">
+                    <div id="search-tab" class="d-flex flex-row flex-nowrap">
+                        <span>Google</span><span>Bing</span><span>DuckDuckGo</span>
                     </div>
-                    <div class="board-content d-flex flex-row flex-wrap">
-                        <div class="item">
-                            <a href="#">
-                                <img src="#">
-                                <p>标题</p>
-                                <p>“ 一些描述 ”</p>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="#">
-                                <p>标题</p>
-                                <p>“ 一些描述 ”</p>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="#">
-                                <p>标题</p>
-                                <p>“ 一些描述 ”</p>
-                            </a>
-                        </div>
+                    <div id="search-bar" class="d-flex flex-row flex-nowrap">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="button">Go</button>
                     </div>
-                </div>
-                <hr>
-                <!--大的版面结束-->
-
-                <!--第二个大的版面。在其中放一个个 item-->
-                <div class="board">
-                    <div class="boadr-title">
-                        <h2>设计相关</h2>
-                    </div>
-                    <div class="board-content d-flex flex-row flex-wrap">
-                        <div class="item">
-                            <a href="#">
-                                <img src="#">
-                                <p>标题</p>
-                                <p>“ 一些描述 ”</p>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="#">
-                                <p>标题</p>
-                                <p>“ 一些描述 ”</p>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="#">
-                                <p>标题</p>
-                                <p>“ 一些描述 ”</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <!--大的版面结束-->
-
-                <!--第三个大的版面。在其中放一个个 item-->
-                <div class="board">
-                    <div class="boadr-title">
-                        <h2>设计相关</h2>
-                    </div>
-                    <div class="board-content d-flex flex-row flex-wrap">
-                        <div class="item">
-                            <a href="#">
-                                <img src="#">
-                                <p>标题</p>
-                                <p>“ 一些描述 ”</p>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="#">
-                                <p>标题</p>
-                                <p>“ 一些描述 ”</p>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="#">
-                                <p>标题</p>
-                                <p>“ 一些描述 ”</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <!--大的版面结束-->
-            </main>
-
-            <!--footer 为最外层容器的 flex 成员-->
-            <footer class="footer-my-style mt-auto">
-                <p>Copyright © 2019 Marlous. All rights reserved.</p>
-            </footer>
-
+                </header>
+            </div>
         </div>
+
+        
+        <!--整个页面右边主体下面部分-->
+        <div id="body-right-bottom">
+            <div class="container-fluid h-100 mx-auto p-3 d-flex flex-column">
+                <main class="d-flex flex-column p-3">
+                    <!--第一个大的版面。在其中放一个个 item-->
+                    <div class="board">
+                        <div class="boadr-title">
+                            <h2>设计相关</h2>
+                        </div>
+                        <div class="board-content d-flex flex-row flex-wrap">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="#">
+                                    <p>标题</p>
+                                    <p>“ 一些描述 ”</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="#">
+                                    <p>标题</p>
+                                    <p>“ 一些描述 ”</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="#">
+                                    <p>标题</p>
+                                    <p>“ 一些描述 ”</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <!--大的版面结束-->
+
+                    <!--第二个大的版面。在其中放一个个 item-->
+                    <div class="board">
+                        <div class="boadr-title">
+                            <h2>设计相关</h2>
+                        </div>
+                        <div class="board-content d-flex flex-row flex-wrap">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="#">
+                                    <p>标题</p>
+                                    <p>“ 一些描述 ”</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="#">
+                                    <p>标题</p>
+                                    <p>“ 一些描述 ”</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="#">
+                                    <p>标题</p>
+                                    <p>“ 一些描述 ”</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <!--大的版面结束-->
+
+                    <!--第三个大的版面。在其中放一个个 item-->
+                    <div class="board">
+                        <div class="boadr-title">
+                            <h2>设计相关</h2>
+                        </div>
+                        <div class="board-content d-flex flex-row flex-wrap">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="#">
+                                    <p>标题</p>
+                                    <p>“ 一些描述 ”</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="#">
+                                    <p>标题</p>
+                                    <p>“ 一些描述 ”</p>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="#">
+                                    <p>标题</p>
+                                    <p>“ 一些描述 ”</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <!--大的版面结束-->
+                </main>
+            </div>
+        </div>
+
+
+
     </div>
 
 
     <!-- Scripts -->
-    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        //鼠标悬浮显示提示
+        $(function () {
+            $("[data-toggle='tooltip']").tooltip();
+        });
+    </script>
 
 </body>
 
