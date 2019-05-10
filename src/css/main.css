@@ -9,9 +9,16 @@
 }
 
 /* 导航栏 */
+#nav p{
+    margin: 0;
+    font-weight: 800;
+    font-size: larger;
+    text-shadow: 0 0 15px #00bbf0;
+}
+
 #nav img{
-    height: 160px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
 }
 
 #nav a{
@@ -74,12 +81,133 @@
 /* 右边主体上面部分样式 */
 #body-right-top{
     position: fixed;
-    height: 120px;
+    height: 105px;
     width: calc(100% - 220px);
-    background-color: black;
+    background-color: #393e46;
+    box-shadow: 8px 10px 10px 4px #EBEDEB;
 }
+
+/* search-tab */
+#search-tab span{
+    color: white;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    padding: 8px;
+}
+
+#search-tab span:nth-child(1){
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    margin-left: 15px
+}
+
+#search-tab span:hover{
+    color: #393E46;
+    background-color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px 10px 0 0;
+    transition: 200ms;
+}
+
+#search-tab span:hover:nth-child(1){
+    color: #393E46;
+    font-weight: bold;
+    padding: 8px;
+    margin-left: 15px;
+    transition: 200ms;
+}
+
+/* search-bar */
+#search-bar input{
+    border-radius: 15px;
+    border: solid 2px transparent;
+    padding: 4px 15px;
+    width: calc(100% - 100px);
+}
+
+#search-bar input:hover{
+    border-radius: 15px;
+    border: solid 2px #00bbf0;
+    padding: 4px 15px;
+    width: calc(100% - 100px);
+    transition: 200ms;
+}
+
+#search-bar span{
+    display: inline-block;
+    width: 90px;
+    border-radius: 15px;
+    border: solid 2px #00A200;
+    margin-left: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #00A200;
+}
+
+#search-bar span:hover{
+    display: inline-block;
+    width: 90px;
+    border-radius: 15px;
+    border: solid 2px #00bbf0;
+    margin-left: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #00A200;
+    cursor:pointer;
+    transition: 200ms;
+}
+
 
 /* 右边主体下面部分样式 */
 #body-right-bottom{
-    padding-top: 100px;
+    padding: 110px 0 0 0;
+}
+
+/* 若干个大的版面 */
+.board-title{
+    padding-bottom: 10px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: larger;
+    color: #898989;
+}
+
+.item{
+    height: 90px;
+    width: 170px;
+    margin: 8px;
+    text-decoration: none !important;
+    background-color: white;
+    box-shadow: 0 0 15px 0 #cccaca;
+    border-radius: 10px;
+}
+
+.intro,
+.des{
+    padding: 5px;
+}
+
+.intro img{
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+}
+
+.intro p{
+    font-weight: bold;
+    color: #393e46;
+}
+
+.des{
+    font-size: small;
+    color: #898989;
+}
+
+/* 鼠标悬停在 item 上的样式 */
+.item:hover{
+    box-shadow: 0 0 15px 0 #00bbf0;
 }
