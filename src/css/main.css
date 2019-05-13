@@ -214,6 +214,7 @@
 }
 
 .intro p{
+    text-align: left;
     font-weight: bold;
     color: #393e46;
 }
