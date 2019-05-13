@@ -63,6 +63,13 @@ function autoClickSearchTab() {
 }
 
 
+/* 点击导航栏，会跳转到对应的锚点，但是会被固定的搜索栏遮住，
+此函数会自动向下滑一段距离，修正锚点便偏移问题。 */
+function autoScroll() {
+
+}
+
+
 /* 主体内容生成函数 */
 function generateNav(nav_config_path, nav_name) {
 
@@ -79,11 +86,12 @@ function generateNav(nav_config_path, nav_name) {
         $("#" + nav_name).append(board);
 
         // 遍历一个 json 文件内容。(将一个数组 block_item 中的每个成员（一个小盒子）放进 board-content)。
+        // 使用 API 获取网站图标 https://ico.kucat.cn/get.php?url= ，加载不出来显示默认图标。
         $.each(json.block_item, function (i, item) {
             var title_temp = item.title;
             var web_temp = item.web;
             var description_temp = item.description;
-            var item_box = "<a class=\"item d-flex flex-column\" href=\"" + web_temp + "\" target=\"_blank\"><div class=\"intro d-flex flex-row\"><img src=\"#\"><p>" + title_temp + "</p></div><p class=\"des\">“ " + description_temp + " ”</p></a>";
+            var item_box = "<a class=\"item d-flex flex-column\" href=\"" + web_temp + "\" target=\"_blank\"><div class=\"intro d-flex flex-row\"><img src=\"https://ico.kucat.cn/get.php?url=" + web_temp + "\" onerror=\"{this.src=\'img/clover.png\'}\"><p>" + title_temp + "</p></div><p class=\"des\">“ " + description_temp + " ”</p></a>";
             $("#" + nav_name + " .board-content").append(item_box);
         })
 
@@ -103,7 +111,7 @@ function generateNav(nav_config_path, nav_name) {
         <!--每个 item-->
         <a class="item d-flex flex-column" href="web_temp" target="_blank">
             <div class="intro d-flex flex-row">
-                <img src="#">
+                <img src="https://ico.kucat.cn/get.php?url=web_temp" onerror="{this.src='img/error.jpg'}">
                 <p>title_temp</p>
             </div>
             <p class="des">“ description_temp ”</p>

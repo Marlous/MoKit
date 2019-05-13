@@ -25,11 +25,11 @@
             <p>MoKit</p>
             <p>Common tools using daily</p>
             <img src="img/logo.png">
-            <a class="nav-link" href="#设计相关">设计相关</a>
-            <a class="nav-link" href="#">开发者</a>
-            <a class="nav-link" href="#">白帽子黑客</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#设计相关" >设计相关</a>
+            <a class="nav-link" href="#开发者">开发者</a>
+            <a class="nav-link" href="#白帽子黑客">白帽子黑客</a>
+            <a class="nav-link" href="#学术相关">学术相关</a>
+            <a class="nav-link" href="#文档模板">文档模板</a>
         </div>
         <!--空的 flex 成员-->
         <div id="temp">
@@ -39,10 +39,10 @@
             <div class="contact">
                 <img src="img/profile.png">
                 <a href="https://marlous.github.io/home/" target="_blank" data-toggle="tooltip" data-placement="top"
-                    title="Marlous' Home">&nbsp;&nbsp;Home Page</a>
+                    title="Marlous' Home">&nbsp;&copy;&nbsp;Marlous</a>
             </div>
             <div class="copyright">
-                <p>&nbsp;&nbsp;&copy;&nbsp;Marlous</p>
+                <p>Powered by Marlous</p>
             </div>
         </div>
     </div>
@@ -61,7 +61,7 @@
                             onclick="baidu()">百度</span><span onclick="zhihu()">知乎</span>
                     </div>
                     <div id="search-bar" class="d-flex flex-row flex-nowrap">
-                        <input name="search-text" onkeyup="eKeyup(event)" type="text" placeholder="Search"
+                        <input name="search-text" onkeyup="eKeyup(event)" type="text" placeholder="请输入搜索内容..."
                             aria-label="Search">
                         <a id="go" onclick="go()" href="#" target="_blank"><span>Go</span></a>
                     </div>
@@ -75,7 +75,11 @@
             <div id="body-right-bottom-container" class="container-fluid h-100 mx-auto p-3 d-flex flex-column">
 
                 <script>
-                    generateNav("config/design.json", "设计相关");
+                    generateNav("config/设计相关.json", "设计相关");
+                    generateNav("config/design.json", "开发者");
+                    generateNav("config/design.json", "白帽子黑客");
+                    generateNav("config/design.json", "学术相关");
+                    generateNav("config/design.json", "文档模板");
                 </script>
 
             </div>
