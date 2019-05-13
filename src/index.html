@@ -52,11 +52,14 @@
             <div class="container-fluid h-100 mx-auto p-3 d-flex flex-column">
                 <header class="d-flex flex-column">
                     <div id="search-tab" class="d-flex flex-row flex-nowrap">
-                        <span>Google</span><span>Bing</span><span>DuckDuckGo</span><span>搜狗</span><span>百度</span><span>知乎</span>
+                        <span onclick="google()">Google</span><span onclick="bing()">Bing</span><span
+                            onclick="duckduckgo()">DuckDuckGo</span><span onclick="sogou()">搜狗</span><span id="baidu"
+                            onclick="baidu()">百度</span><span onclick="zhihu()">知乎</span>
                     </div>
                     <div id="search-bar" class="d-flex flex-row flex-nowrap">
-                        <input type="text" placeholder="Search" aria-label="Search">
-                        <span>Go</span>
+                        <input name="search-text" onkeyup="eKeyup(event)" type="text" placeholder="Search"
+                            aria-label="Search">
+                        <a id="go" onclick="go()" href="#" target="_blank"><span>Go</span></a>
                     </div>
                 </header>
             </div>
@@ -227,6 +230,11 @@
     <!-- Scripts -->
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        autoClickSearchTab();
+    </script>
 
     <script>
         //鼠标悬浮显示提示

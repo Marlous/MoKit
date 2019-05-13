@@ -115,6 +115,7 @@
     padding: 8px;
     border-radius: 10px 10px 0 0;
     transition: 200ms;
+    cursor:pointer;
 }
 
 #search-tab span:hover:nth-child(1){
@@ -123,6 +124,14 @@
     padding: 8px;
     margin-left: 15px;
     transition: 200ms;
+}
+
+.clicked{
+    color: #393E46 !important;
+    background-color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px 10px 0 0;
 }
 
 /* search-bar */
