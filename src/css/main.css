@@ -9,11 +9,17 @@
 }
 
 /* 导航栏 */
-#nav p{
+#nav p:first-child{
     margin: 0;
     font-weight: 800;
     font-size: larger;
     text-shadow: 0 0 15px #00bbf0;
+}
+
+#nav p:nth-child(2){
+    color: #898989;
+    font-size: small;
+    font-weight: bold;
 }
 
 #nav img{
