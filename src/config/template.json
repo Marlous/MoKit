@@ -1,0 +1,28 @@
+{
+    "block_item": [{
+            "title": "网站名字",
+            "web": "网站链接",
+            "description": "一些描述。"
+        },
+        {
+            "title": "",
+            "web": "",
+            "description": "。"
+        },
+        {
+            "title": "",
+            "web": "",
+            "description": "。"
+        },
+        {
+            "title": "",
+            "web": "",
+            "description": "。"
+        },
+        {
+            "title": "",
+            "web": "",
+            "description": "。"
+        }
+    ]
+}

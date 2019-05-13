@@ -1,18 +1,88 @@
 {
     "block_item": [{
-            "title": "color hunt",
-            "web": "https://melove.net/hao/",
+            "title": "配色 color hunt",
+            "web": "https://colorhunt.co/",
             "description": "一系列颜色搭配。"
         },
         {
-            "title": "WEB安全色",
+            "title": "配色 WEB安全色",
             "web": "http://www.bootcss.com/p/websafecolors/",
             "description": "WEB安全色。"
         },
         {
-            "title": "uigradients",
+            "title": "配色 uigradients",
             "web": "https://uigradients.com/",
-            "description": "渐变色配色。"
+            "description": "单块渐变色配色。"
+        },
+        {
+            "title": "配色 web gradients",
+            "web": "https://webgradients.com/",
+            "description": "多个圆形调色盘渐变色。"
+        },
+        {
+            "title": "配色 coolors",
+            "web": "https://coolors.co/",
+            "description": "竖条配色推荐。"
+        },
+        {
+            "title": "背景 Flat Surface Shader",
+            "web": "http://matthew.wagerfield.com/flat-surface-shader/",
+            "description": "动态 3D 背景。"
+        },
+        {
+            "title": "背景 cool backgrounds",
+            "web": "https://coolbackgrounds.io/",
+            "description": "多种好看的背景方案。"
+        },
+        {
+            "title": "图片 unsplash",
+            "web": "https://unsplash.com/",
+            "description": "免费摄影图片。"
+        },
+        {
+            "title": "图片 pixabay",
+            "web": "https://pixabay.com/",
+            "description": "免费摄影图片。"
+        },
+        {
+            "title": "图片 freephotos",
+            "web": "https://freephotos.cc/zh",
+            "description": "每日一张免费的精选美图。"
+        },
+        {
+            "title": "",
+            "web": "",
+            "description": "。"
+        },
+        {
+            "title": "",
+            "web": "",
+            "description": "。"
+        },
+        {
+            "title": "",
+            "web": "",
+            "description": "。"
+        },
+        {
+            "title": "",
+            "web": "",
+            "description": "。"
+        },
+        {
+            "title": "",
+            "web": "",
+            "description": "。"
+        },
+        {
+            "title": "",
+            "web": "",
+            "description": "。"
+        },
+        {
+            "title": "",
+            "web": "",
+            "description": "。"
         }
     ]
 }

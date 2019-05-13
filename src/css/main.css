@@ -192,8 +192,8 @@
 }
 
 .item{
-    height: 90px;
-    width: 170px;
+    height: 110px;
+    width: 180px;
     margin: 8px;
     text-decoration: none !important;
     background-color: white;
@@ -209,6 +209,7 @@
 .intro img{
     height: 40px;
     width: 40px;
+    border-radius: 8px;
     margin-right: 8px;
 }
 
