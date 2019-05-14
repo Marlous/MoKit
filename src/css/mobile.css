@@ -1,0 +1,28 @@
+/* 解决屏幕比较小的问题 */
+@media screen and (max-width: 690px) {
+    #body-left {
+        display: none !important;
+    }
+
+    #body-right {
+        margin: 0;
+    }
+
+    #body-right-top {
+        display: none;
+    }
+
+    #body-right-bottom {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    #body-right-top {
+        display: none;
+    }
+
+    #body-right-bottom {
+        padding: 0;
+    }
+}
