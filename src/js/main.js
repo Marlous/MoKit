@@ -87,13 +87,6 @@ function autoClickSearchTab() {
 }
 
 
-/* 点击导航栏，会跳转到对应的锚点，但是会被固定的搜索栏遮住，
-此函数会自动向下滑一段距离，修正锚点便偏移问题。 */
-function autoScroll() {
-    // 暂未完成
-}
-
-
 /* 主体内容生成函数 */
 function generateNav(nav_config_path, nav_name) {
 
@@ -106,7 +99,8 @@ function generateNav(nav_config_path, nav_name) {
         $("#body-right-bottom-container").append(board_container);
 
         // 生成 board-title 和 board-content（里面放 item）。
-        var board = "<div class=\"board-title\"><a name=\"" + nav_name + "\">🌻 " + nav_name + "</a></div><div class=\"board-content d-flex flex-row flex-wrap\"> ";
+        var board = "<div class=\"board-title\"><a name=\"" + nav_name + "\">🌻 " + nav_name + "</a></div> \
+                     <div class=\"board-content d-flex flex-row flex-wrap\">";
         $("#" + nav_name).append(board);
 
         // 遍历一个 json 文件内容。(将一个数组 block_item 中的每个成员（一个小盒子）放进 board-content)。
@@ -115,7 +109,13 @@ function generateNav(nav_config_path, nav_name) {
             var title_temp = item.title;
             var web_temp = item.web;
             var description_temp = item.description;
-            var item_box = "<a class=\"item d-flex flex-column\" href=\"" + web_temp + "\" target=\"_blank\"><div class=\"intro d-flex flex-row\"><img src=\"https://ico.kucat.cn/get.php?url=" + web_temp + "\" onerror=\"{this.src=\'img/icon_error.png\'}\"><p>" + title_temp + "</p></div><p class=\"des\">“ " + description_temp + " ”</p></a>";
+            var item_box = "<a class=\"item d-flex flex-column\" href=\"" + web_temp + "\" target=\"_blank\"> \
+                                <div class=\"intro d-flex flex-row\"> \
+                                    <img src=\"https://ico.kucat.cn/get.php?url=" + web_temp + "\" onerror=\"{this.src=\'img/icon_error.png\'}\"> \
+                                    <p>" + title_temp + "</p> \
+                                </div> \
+                                <p class=\"des\">“ " + description_temp + " ”</p> \
+                            </a>";
             $("#" + nav_name + " .board-content").append(item_box);
         })
 
@@ -143,7 +143,6 @@ function generateNav(nav_config_path, nav_name) {
         <!--item 结束-->
 
     </div>
-    <hr>
 </div>
 
 <!--第 n 个大的版面结束-->
