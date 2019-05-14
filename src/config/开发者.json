@@ -1,5 +1,25 @@
 {
     "block_item": [{
+            "title": "API public-apis",
+            "web": "https://public-apis.xyz/",
+            "description": "公共 API。"
+        },
+        {
+            "title": "API 聚合数据",
+            "web": "https://www.juhe.cn/service",
+            "description": "API 超市。"
+        },
+        {
+            "title": "API sdk.cn",
+            "web": "https://sdk.cn/services",
+            "description": "API/SDK."
+        },
+        {
+            "title": "API pullword",
+            "web": "http://pullword.com/",
+            "description": "梁博的分词。"
+        },
+        {
             "title": "search code",
             "web": "https://searchcode.com/",
             "description": "代码片段搜索。"
@@ -45,6 +65,11 @@
             "description": "非常丰富的域名、IP 等信息查询。"
         },
         {
+            "title": "DNSDB",
+            "web": "https://dnsdb.io/zh-cn/",
+            "description": "全球DNS搜索引擎。"
+        },
+        {
             "title": "tiny png",
             "web": "https://tinypng.com/",
             "description": "图片压缩工具。"
@@ -53,16 +78,6 @@
             "title": "codelf",
             "web": "https://unbug.github.io/codelf/",
             "description": "根据关键词生成变量名。"
-        },
-        {
-            "title": "public-apis",
-            "web": "https://public-apis.xyz/",
-            "description": "公共 API。"
-        },
-        {
-            "title": "pullword",
-            "web": "http://pullword.com/",
-            "description": "梁博的分词。"
         },
         {
             "title": "bootcdn",
@@ -118,16 +133,6 @@
             "title": "applight",
             "web": "https://www.applight.io/",
             "description": "app 宣传下载页面自动生成。"
-        },
-        {
-            "title": "",
-            "web": "",
-            "description": "。"
-        },
-        {
-            "title": "",
-            "web": "",
-            "description": "。"
         }
     ]
 }

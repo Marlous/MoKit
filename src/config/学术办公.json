@@ -1,10 +1,5 @@
 {
     "block_item": [{
-            "title": "期刊/会议/学者、文献搜索",
-            "web": "https://marlous.github.io/2018/12/25/学术规范、论文写作、文献管理学习笔记/#四-工具与服务",
-            "description": "网站汇总。Marlous 笔记。"
-        },
-        {
             "title": "Google 学术",
             "web": "https://scholar.google.com/",
             "description": "Google 学术。"
@@ -35,6 +30,21 @@
             "description": "百度学术。"
         },
         {
+            "title": "SCI-Hub 导航",
+            "web": "https://lovescihub.wordpress.com/",
+            "description": "SCI-Hub."
+        },
+        {
+            "title": "中国知网",
+            "web": "http://www.cnki.net/",
+            "description": "中国知网。"
+        },
+        {
+            "title": "万方数据",
+            "web": "http://www.wanfangdata.com.cn/index.html",
+            "description": "万方数据。"
+        },
+        {
             "title": "小木虫中文期刊点评",
             "web": "http://muchong.com/bbs/journal_cn.php",
             "description": "小木虫中文期刊点评。"
@@ -53,6 +63,11 @@
             "title": "开题助手",
             "web": "https://xueshu.baidu.com/u/biye/?tag=paper&site=index_links",
             "description": "研究领域可视化分析，相关文献深度挖掘。"
+        },
+        {
+            "title": "semantic scholar",
+            "web": "https://www.semanticscholar.org/",
+            "description": "Find peer-reviewed research."
         },
         {
             "title": "Google 翻译",
@@ -108,12 +123,6 @@
             "title": "WPS 在线文档",
             "web": "https://account.wps.cn/",
             "description": "WPS 在线文档。"
-        },
-
-        {
-            "title": "",
-            "web": "",
-            "description": "。"
         }
     ]
 }

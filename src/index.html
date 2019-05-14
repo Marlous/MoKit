@@ -25,7 +25,7 @@
             <p>MoKit</p>
             <p>Common tools using daily</p>
             <img src="img/logo.png">
-            <a class="nav-link" href="#搜索门户">搜索门户</a>
+            <a class="nav-link" href="#搜索门户">检索导航门户</a>
             <a class="nav-link" href="#设计相关">设计相关</a>
             <a class="nav-link" href="#开发者">开发者</a>
             <a class="nav-link" href="#白帽子黑客">白帽子黑客</a>
@@ -70,7 +70,7 @@
                         <span onclick="paperclip()">回形针手册</span>
                     </div>
                     <div id="search-bar" class="d-flex flex-row flex-nowrap">
-                        <input name="search-text" onkeyup="eKeyup(event)" type="text" placeholder="请输入搜索内容..."
+                        <input name="search-text" onkeyup="eKeyup(event)" type="text" placeholder="请输入搜索内容 ..."
                             aria-label="Search">
                         <a id="go" onclick="go()" href="#" target="_blank"><span>Go</span></a>
                     </div>
@@ -84,13 +84,13 @@
             <div id="body-right-bottom-container" class="container-fluid h-100 mx-auto p-3 d-flex flex-column">
 
                 <script>
-                    generateNav("config/搜索门户.json", "搜索门户");
+                    generateNav("config/检索导航门户.json", "检索导航门户");
                     generateNav("config/设计相关.json", "设计相关");
                     generateNav("config/开发者.json", "开发者");
                     generateNav("config/白帽子黑客.json", "白帽子黑客");
                     generateNav("config/学术办公.json", "学术办公");
-                    generateNav("config/文档模板.json", "文档模板");
                     generateNav("config/其他小工具.json", "其他小工具");
+                    generateNav("config/文档模板.json", "文档模板");
                 </script>
 
             </div>
@@ -100,10 +100,6 @@
 
 
     <!-- Scripts -->
-    <script>
-        autoClickSearchTab();
-    </script>
-
     <script>
         //鼠标悬浮显示提示
         $(function () {

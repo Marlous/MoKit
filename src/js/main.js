@@ -90,7 +90,7 @@ function autoClickSearchTab() {
 /* 点击导航栏，会跳转到对应的锚点，但是会被固定的搜索栏遮住，
 此函数会自动向下滑一段距离，修正锚点便偏移问题。 */
 function autoScroll() {
-
+    // 暂未完成
 }
 
 
