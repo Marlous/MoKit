@@ -1,6 +1,6 @@
 /* 整个页面左边固定的边栏 */
 /* 左边固定的边栏位置样式 */
-#body-left{
+#body-left {
     position: fixed;
     height: 100vh;
     width: 220px;
@@ -9,25 +9,25 @@
 }
 
 /* 导航栏 */
-#nav p:first-child{
+#nav p:first-child {
     margin: 0;
     font-weight: 800;
     font-size: larger;
     text-shadow: 0 0 15px #00bbf0;
 }
 
-#nav p:nth-child(2){
+#nav p:nth-child(2) {
     color: #898989;
     font-size: small;
     font-weight: bold;
 }
 
-#nav img{
+#nav img {
     height: 120px;
     width: 120px;
 }
 
-#nav a{
+#nav a {
     padding-top: 2px !important;
     padding-bottom: 2px !important;
     color: #898989;
@@ -37,7 +37,7 @@
     width: 150px;
 }
 
-#nav a:hover{
+#nav a:hover {
     color: white;
     font-weight: bold;
     background-color: #898989;
@@ -47,30 +47,30 @@
 }
 
 /* 空的 flex 成员 */
-#temp{
+#temp {
     flex-grow: 1;
 }
 
 /* 页脚 */
-.contact{
+.contact {
     display: flex;
     flex-direction: row;
     padding: 8px 16px;
 }
 
-.contact img{
+.contact img {
     height: 20px;
     width: 20px;
 }
 
-.contact span{
+.contact span {
     line-height: 20px;
     font-weight: bold;
     font-size: small;
     color: gray;
 }
 
-.copyright{
+.copyright {
     font-size: small;
     color: gray;
 }
@@ -78,13 +78,13 @@
 
 /* 整个页面右边主体内容 */
 /* 右边主体内容样式 */
-#body-right{
+#body-right {
     margin-left: 220px;
     background-color: #F5F8F5;
 }
 
 /* 右边主体上面部分样式 */
-#body-right-top{
+#body-right-top {
     position: fixed;
     height: 105px;
     width: calc(100% - 220px);
@@ -93,31 +93,31 @@
 }
 
 /* search-tab */
-#search-tab span{
+#search-tab span {
     color: white;
     font-weight: bold;
     border-radius: 10px 10px 0 0;
     padding: 8px;
 }
 
-#search-tab span:nth-child(1){
+#search-tab span:nth-child(1) {
     color: white;
     font-weight: bold;
     padding: 8px;
     margin-left: 15px
 }
 
-#search-tab span:hover{
+#search-tab span:hover {
     color: #393E46;
     background-color: white;
     font-weight: bold;
     padding: 8px;
     border-radius: 10px 10px 0 0;
     transition: 200ms;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-#search-tab span:hover:nth-child(1){
+#search-tab span:hover:nth-child(1) {
     color: #393E46;
     font-weight: bold;
     padding: 8px;
@@ -125,7 +125,7 @@
     transition: 200ms;
 }
 
-.clicked{
+.clicked {
     color: #393E46 !important;
     background-color: white;
     font-weight: bold;
@@ -134,14 +134,14 @@
 }
 
 /* search-bar */
-#search-bar input{
+#search-bar input {
     border-radius: 15px;
     border: solid 2px transparent;
     padding: 4px 15px;
     width: calc(100% - 100px);
 }
 
-#search-bar input:hover{
+#search-bar input:hover {
     border-radius: 15px;
     border: solid 2px #00bbf0;
     padding: 4px 15px;
@@ -149,7 +149,7 @@
     transition: 200ms;
 }
 
-#search-bar span{
+#search-bar span {
     display: inline-block;
     width: 90px;
     border-radius: 15px;
@@ -161,7 +161,7 @@
     background-color: #00A200;
 }
 
-#search-bar span:hover{
+#search-bar span:hover {
     display: inline-block;
     width: 90px;
     border-radius: 15px;
@@ -171,18 +171,18 @@
     font-weight: bolder;
     font-size: larger;
     background-color: #00A200;
-    cursor:pointer;
+    cursor: pointer;
     transition: 200ms;
 }
 
 
 /* 右边主体下面部分样式 */
-#body-right-bottom{
+#body-right-bottom {
     padding: 110px 0 0 0;
 }
 
 /* 若干个大的版面 */
-.board-title{
+.board-title {
     padding-bottom: 10px;
     text-align: left;
     font-weight: bolder;
@@ -190,7 +190,7 @@
     color: #898989;
 }
 
-.item{
+.item {
     height: 120px;
     width: 180px;
     margin: 8px;
@@ -201,29 +201,29 @@
 }
 
 .intro,
-.des{
+.des {
     padding: 5px;
 }
 
-.intro img{
+.intro img {
     height: 40px;
     width: 40px;
     border-radius: 8px;
     margin-right: 8px;
 }
 
-.intro p{
+.intro p {
     text-align: left;
     font-weight: bold;
     color: #393e46;
 }
 
-.des{
+.des {
     font-size: small;
     color: #898989;
 }
 
 /* 鼠标悬停在 item 上的样式 */
-.item:hover{
+.item:hover {
     box-shadow: 0 0 15px 0 #00bbf0;
 }
