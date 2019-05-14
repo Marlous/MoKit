@@ -37,6 +37,30 @@ function zhihu() {
     $("#search-tab span:nth-child(6)").addClass("clicked");
 }
 
+function wiki() {
+    link = "https://zh.wikipedia.org/w/index.php?search=";
+    $("#search-tab span").removeClass("clicked");
+    $("#search-tab span:nth-child(7)").addClass("clicked");
+}
+
+function stackoverflow() {
+    link = "https://stackoverflow.com/search?q=";
+    $("#search-tab span").removeClass("clicked");
+    $("#search-tab span:nth-child(8)").addClass("clicked");
+}
+
+function segmentfault() {
+    link = "https://segmentfault.com/search?q=";
+    $("#search-tab span").removeClass("clicked");
+    $("#search-tab span:nth-child(9)").addClass("clicked");
+}
+
+function paperclip() {
+    link = "https://www.ipaperclip.net/doku.php?do=search&id=start&q=";
+    $("#search-tab span").removeClass("clicked");
+    $("#search-tab span:nth-child(10)").addClass("clicked");
+}
+
 
 /* 搜索键。拼出要跳转的链接。link 变量加上搜索框内容拼成一个链接 */
 function go() {

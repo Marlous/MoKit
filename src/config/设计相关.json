@@ -50,6 +50,11 @@
             "description": "每日一张免费的精选美图。"
         },
         {
+            "title": "图标 ConvertIco",
+            "web": "https://convertico.com/",
+            "description": "PNG to ICO Conversion."
+        },
+        {
             "title": "图标 flat icons",
             "web": "https://flaticons.net/",
             "description": "可以自己定制 icon。"
@@ -108,6 +113,16 @@
             "title": "simple desktop",
             "web": "http://simpledesktops.com/",
             "description": "简约桌面壁纸（全平台）。"
+        },
+        {
+            "title": "字体 有字库",
+            "web": "https://www.webfont.com/",
+            "description": "多种字体，注明是否需要付费。"
+        },
+        {
+            "title": "开发设计在线工具",
+            "web": "http://www.xueui.cn/design/online-tools",
+            "description": "很多常用的小工具。"
         }
     ]
 }
