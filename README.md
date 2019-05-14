@@ -30,7 +30,7 @@
 </div>
 ```
 
-3. 添加主体内容。在 `index.html` 文件中找到对应的代码，直接调用 generateNav()` 函数即可：
+3. 添加主体内容。在 `index.html` 文件中找到对应的代码，直接调用 `generateNav()` 函数即可：
 ```js
 <script>
     generateNav("config/检索导航门户.json", "检索导航门户");
