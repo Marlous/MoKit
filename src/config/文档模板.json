@@ -1,0 +1,29 @@
+{
+    "block_item": [
+        {
+            "title": "学术论文写作方法论",
+            "web": "https://marlous.github.io/2018/12/25/学术规范、论文写作、文献管理学习笔记/#二-论文研读与写作（参考经验）",
+            "description": "Marlous 笔记。"
+        },
+        {
+            "title": "README 和 gitignore",
+            "web": "https://marlous.github.io/2018/09/22/开源项目的 README 与 gitignore/",
+            "description": "Marlous 笔记。"
+        },
+        {
+            "title": "软件工程相关",
+            "web": "https://marlous.github.io/2019/02/28/软件工程相关（整理总结）/",
+            "description": "过程、方法、工具。Marlous 笔记。"
+        },
+        {
+            "title": "HTML/CSS/JS 等",
+            "web": "http://www.w3school.com.cn/b.asp",
+            "description": "W3C HTML/CSS/JS 等。"
+        },
+        {
+            "title": "Bootstrap 4 中文文档",
+            "web": "http://bs4.ntp.org.cn/pages/components.html",
+            "description": "Bootstrap 4 中文文档。"
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "block_item": [{
+            "title": "Google 学术",
+            "web": "https://scholar.google.com/",
+            "description": "Google 学术。"
+        },
+        {
+            "title": "Google 学术镜像",
+            "web": "http://ac.scmor.com/",
+            "description": "Google 学术镜像。"
+        },
+        {
+            "title": "谷粉学术",
+            "web": "https://gfsoso.99lb.net/",
+            "description": "谷粉学术。"
+        },
+        {
+            "title": "Bing 学术",
+            "web": "https://cn.bing.com/academic",
+            "description": "Bing 学术。"
+        },
+        {
+            "title": "微软学术",
+            "web": "https://academic.microsoft.com/home",
+            "description": "微软学术。"
+        },
+        {
+            "title": "百度学术",
+            "web": "https://xueshu.baidu.com/",
+            "description": "百度学术。"
+        },
+        {
+            "title": "SCI-Hub 导航",
+            "web": "https://lovescihub.wordpress.com/",
+            "description": "SCI-Hub."
+        },
+        {
+            "title": "中国知网",
+            "web": "http://www.cnki.net/",
+            "description": "中国知网。"
+        },
+        {
+            "title": "万方数据",
+            "web": "http://www.wanfangdata.com.cn/index.html",
+            "description": "万方数据。"
+        },
+        {
+            "title": "小木虫中文期刊点评",
+            "web": "http://muchong.com/bbs/journal_cn.php",
+            "description": "小木虫中文期刊点评。"
+        },
+        {
+            "title": "小木虫 SCI 期刊点评",
+            "web": "http://muchong.com/bbs/journal.php",
+            "description": "小木虫 SCI 期刊点评。"
+        },
+        {
+            "title": "WolframAlpha",
+            "web": "https://www.wolframalpha.com/",
+            "description": "WolframAlpha"
+        },
+        {
+            "title": "开题助手",
+            "web": "https://xueshu.baidu.com/u/biye/?tag=paper&site=index_links",
+            "description": "研究领域可视化分析，相关文献深度挖掘。"
+        },
+        {
+            "title": "semantic scholar",
+            "web": "https://www.semanticscholar.org/",
+            "description": "Find peer-reviewed research."
+        },
+        {
+            "title": "Google 翻译",
+            "web": "https://translate.google.com/m/translate?hl=zh-CN",
+            "description": "Google 翻译。"
+        },
+        {
+            "title": "百度翻译",
+            "web": "https://fanyi.baidu.com/",
+            "description": "百度翻译。"
+        },
+        {
+            "title": "术语在线",
+            "web": "http://www.termonline.cn/index.htm",
+            "description": "术语查询。"
+        },
+        {
+            "title": "eqneditor",
+            "web": "https://www.codecogs.com/latex/eqneditor.php",
+            "description": "LaTeX 公式在线编辑器。"
+        },
+        {
+            "title": "mathcha",
+            "web": "https://www.mathcha.io/editor",
+            "description": "数学公式编辑器。"
+        },
+        {
+            "title": "small pdf",
+            "web": "https://smallpdf.com/",
+            "description": "All-in-one easy-to-use online PDF tools."
+        },
+        {
+            "title": "abbyy OCR",
+            "web": "https://ocr.abbyy.cn/",
+            "description": "abbyy OCR."
+        },
+        {
+            "title": "mba lib",
+            "web": "https://www.mbalib.com/",
+            "description": "MBA 智库，管理者专业学习成长平台。"
+        },
+        {
+            "title": "Google 文档",
+            "web": "https://www.google.com/intl/zh-CN/docs/about/",
+            "description": "Google 文档。"
+        },
+        {
+            "title": "石墨文档",
+            "web": "https://shimo.im/welcome",
+            "description": "石墨文档。"
+        },
+        {
+            "title": "WPS 在线文档",
+            "web": "https://account.wps.cn/",
+            "description": "WPS 在线文档。"
+        }
+    ]
+}

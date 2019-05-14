@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="bookmark" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+    <title>MoKit</title>
+</head>
+
+<body class="text-center">
+
+
+    <!--整个页面左边固定的导航栏-->
+    <div id="body-left" class="d-flex flex-column">
+        <!--导航栏-->
+        <div id="nav" class="d-flex flex-column p-3 align-items-center">
+            <p>MoKit</p>
+            <p>Common tools using daily</p>
+            <img src="img/logo.png">
+            <a class="nav-link" href="#检索导航门户">检索导航门户</a>
+            <a class="nav-link" href="#设计相关">设计相关</a>
+            <a class="nav-link" href="#开发者">开发者</a>
+            <a class="nav-link" href="#白帽子黑客">白帽子黑客</a>
+            <a class="nav-link" href="#学术办公">学术办公</a>
+            <a class="nav-link" href="#其他小工具">其他小工具</a>
+            <a class="nav-link" href="#文档模板">文档模板</a>
+        </div>
+        <!--空的 flex 成员-->
+        <div id="temp">
+        </div>
+        <!--页脚-->
+        <div id="footer" class="d-flex flex-column p-3 align-items-center">
+            <div class="contact">
+                <img src="img/profile.png">
+                <span>&nbsp;&copy;&nbsp;Marlous</span>
+            </div>
+            <div class="copyright">
+                <p>Powered by <a href="https://marlous.github.io/home/" target="_blank" data-toggle="tooltip"
+                        data-placement="top" title="Marlous' Home">Marlous</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--整个页面右边主体内容-->
+    <div id="body-right">
+
+        <!--整个页面右边主体上面部分-->
+        <div id="body-right-top">
+            <div class="container-fluid h-100 mx-auto p-3 d-flex flex-column">
+                <header class="d-flex flex-column">
+                    <div id="search-tab" class="d-flex flex-row flex-nowrap">
+                        <span onclick="google()">Google</span>
+                        <span onclick="bing()">Bing</span>
+                        <span onclick="duckduckgo()">DuckDuckGo</span>
+                        <span onclick="sogou()">搜狗</span>
+                        <span id="baidu" onclick="baidu()">百度</span>
+                        <span onclick="zhihu()">知乎</span>
+                        <span onclick="wiki()">Wikipedia</span>
+                        <span onclick="stackoverflow()">Stack Overflow</span>
+                        <span onclick="segmentfault()">思否</span>
+                        <span onclick="paperclip()">回形针手册</span>
+                    </div>
+                    <div id="search-bar" class="d-flex flex-row flex-nowrap">
+                        <input name="search-text" onkeyup="eKeyup(event)" type="text" placeholder="请输入搜索内容 ..."
+                            aria-label="Search">
+                        <a id="go" onclick="go()" href="#" target="_blank"><span>Go</span></a>
+                    </div>
+                </header>
+            </div>
+        </div>
+
+
+        <!--整个页面右边主体下面部分-->
+        <div id="body-right-bottom">
+            <div id="body-right-bottom-container" class="container-fluid h-100 mx-auto p-3 d-flex flex-column">
+
+                <script>
+                    generateNav("config/检索导航门户.json", "检索导航门户");
+                    generateNav("config/设计相关.json", "设计相关");
+                    generateNav("config/开发者.json", "开发者");
+                    generateNav("config/白帽子黑客.json", "白帽子黑客");
+                    generateNav("config/学术办公.json", "学术办公");
+                    generateNav("config/其他小工具.json", "其他小工具");
+                    generateNav("config/文档模板.json", "文档模板");
+                </script>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Scripts -->
+    <script>
+        autoClickSearchTab();
+
+        //鼠标悬浮显示提示
+        $(function () {
+            $("[data-toggle='tooltip']").tooltip();
+        });
+    </script>
+
+
+</body>
+
+</html>
