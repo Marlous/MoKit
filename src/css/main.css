@@ -63,12 +63,11 @@
     width: 20px;
 }
 
-.contact a{
+.contact span{
     line-height: 20px;
     font-weight: bold;
     font-size: small;
     color: gray;
-    text-decoration: none;
 }
 
 .copyright{

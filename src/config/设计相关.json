@@ -50,34 +50,64 @@
             "description": "每日一张免费的精选美图。"
         },
         {
-            "title": "图标 manypixels",
+            "title": "图标 flat icons",
+            "web": "https://flaticons.net/",
+            "description": "可以自己定制 icon。"
+        },
+        {
+            "title": "图标 iconfont",
+            "web": "https://www.iconfont.cn/",
+            "description": "阿里提供的图标库。"
+        },
+        {
+            "title": "图标 easyicon",
+            "web": "https://www.easyicon.net/",
+            "description": "图标搜索下载。"
+        },
+        {
+            "title": "图标 icontuku",
+            "web": "http://www.icontuku.com/",
+            "description": "多种图标搜索。"
+        },
+        {
+            "title": "instant logo search",
+            "web": "http://instantlogosearch.com/",
+            "description": "高质量品牌 Logo 搜索。"
+        },
+        {
+            "title": "icons8",
+            "web": "https://icons8.cn/",
+            "description": "图标、插图、音乐。推荐。"
+        },
+        {
+            "title": "插画 manypixels",
             "web": "https://gallery.manypixels.co/",
-            "description": "一些设计图。"
+            "description": "一些精美的插图。"
         },
         {
-            "title": "",
-            "web": "",
-            "description": "。"
+            "title": "插画 undraw",
+            "web": "https://undraw.co/illustrations",
+            "description": "免费插画网，可修改。"
         },
         {
-            "title": "",
-            "web": "",
-            "description": "。"
+            "title": "设计资源 uplabs",
+            "web": "https://www.uplabs.com/",
+            "description": "为设计师、开发者提供。"
         },
         {
-            "title": "",
-            "web": "",
-            "description": "。"
+            "title": "设计资源 稀土区",
+            "web": "https://xituqu.com/",
+            "description": "优秀设计开发资源分发。"
         },
         {
-            "title": "",
-            "web": "",
-            "description": "。"
+            "title": "设计资源 mobbin.design",
+            "web": "https://mobbin.design/",
+            "description": "iOS UI design patterns."
         },
         {
-            "title": "",
-            "web": "",
-            "description": "。"
+            "title": "simple desktop",
+            "web": "http://simpledesktops.com/",
+            "description": "简约桌面壁纸（全平台）。"
         }
     ]
 }

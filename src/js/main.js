@@ -91,7 +91,7 @@ function generateNav(nav_config_path, nav_name) {
             var title_temp = item.title;
             var web_temp = item.web;
             var description_temp = item.description;
-            var item_box = "<a class=\"item d-flex flex-column\" href=\"" + web_temp + "\" target=\"_blank\"><div class=\"intro d-flex flex-row\"><img src=\"https://ico.kucat.cn/get.php?url=" + web_temp + "\" onerror=\"{this.src=\'img/clover.png\'}\"><p>" + title_temp + "</p></div><p class=\"des\">“ " + description_temp + " ”</p></a>";
+            var item_box = "<a class=\"item d-flex flex-column\" href=\"" + web_temp + "\" target=\"_blank\"><div class=\"intro d-flex flex-row\"><img src=\"https://ico.kucat.cn/get.php?url=" + web_temp + "\" onerror=\"{this.src=\'img/icon_error.png\'}\"><p>" + title_temp + "</p></div><p class=\"des\">“ " + description_temp + " ”</p></a>";
             $("#" + nav_name + " .board-content").append(item_box);
         })
 
