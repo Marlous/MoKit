@@ -2,10 +2,11 @@
 #fly {
     position: fixed;
     display: none;
-    bottom: 30px;
-    left: 30px;
+    bottom: 15px;
+    left: 15px;
     border: solid 5px #343A40;
     border-radius: 15px;
+    box-shadow: 0 0 15px rgb(45, 50, 54);
 }
 
 #fly-item a {
