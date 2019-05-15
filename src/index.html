@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/mobile.css">
-    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="js/config.js"></script>
-    <script src="js/main.js"></script>
     <title>MoKit</title>
 </head>
 
@@ -26,13 +22,7 @@
             <p>MoKit</p>
             <p>Common tools using daily</p>
             <img src="img/logo.png">
-            <a class="nav-link" href="#检索导航门户">检索导航门户</a>
-            <a class="nav-link" href="#设计相关">设计相关</a>
-            <a class="nav-link" href="#开发者">开发者</a>
-            <a class="nav-link" href="#白帽子黑客">白帽子黑客</a>
-            <a class="nav-link" href="#学术办公">学术办公</a>
-            <a class="nav-link" href="#其他小工具">其他小工具</a>
-            <a class="nav-link" href="#文档模板">文档模板</a>
+            <!--config.js 的内容会生成在这里。左侧导航栏-->
         </div>
         <!--空的 flex 成员-->
         <div id="temp">
@@ -83,17 +73,7 @@
         <!--整个页面右边主体下面部分-->
         <div id="body-right-bottom">
             <div id="body-right-bottom-container" class="container-fluid h-100 mx-auto p-3 d-flex flex-column">
-
-                <script>
-                    generateNav("config/检索导航门户.json", "检索导航门户");
-                    generateNav("config/设计相关.json", "设计相关");
-                    generateNav("config/开发者.json", "开发者");
-                    generateNav("config/白帽子黑客.json", "白帽子黑客");
-                    generateNav("config/学术办公.json", "学术办公");
-                    generateNav("config/其他小工具.json", "其他小工具");
-                    generateNav("config/文档模板.json", "文档模板");
-                </script>
-
+                <!--config.js 的内容会生成在这里。每个板块和其中一个个网站盒子-->
             </div>
         </div>
 
@@ -101,6 +81,11 @@
 
 
     <!-- Scripts -->
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/config.js"></script>
+
     <script>
         autoClickSearchTab();
 
