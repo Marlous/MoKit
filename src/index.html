@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/fly.css">
     <title>MoKit</title>
 </head>
 
@@ -67,6 +68,24 @@
                     </div>
                 </header>
             </div>
+        </div>
+
+
+        <!--悬浮的导航栏，左侧导航栏消失后出现在上面-->
+        <div id="fly" class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div id="fly-item" class="bg-dark p-4">
+                    <h3><a href="https://marlous.github.io/home/" target="_blank">MoKit</a></h3>
+                    <!--config.js 的内容会生成在这里。悬浮导航栏-->
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
         </div>
 
 
