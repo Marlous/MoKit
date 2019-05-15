@@ -94,6 +94,7 @@ function generateNav(nav_config_path, nav_name) {
     /* 生成导航栏 */
     var nav_content = "<a class=\"nav-link\" href=\"#" + nav_name + "\">" + nav_name + "</a>";
     $("#nav").append(nav_content);
+    $("#fly-item").append(nav_content);
 
 
     /* 读取一个 json 文件，读取成功后并执行函数。生成一个个大的板块。 */

@@ -1,0 +1,27 @@
+/* 悬浮导航栏（左侧导航栏消失后才出现，display 变为 block）*/
+#fly {
+    position: fixed;
+    display: none;
+    bottom: 15px;
+    left: 15px;
+    border: solid 5px #343A40;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(45, 50, 54);
+}
+
+#fly-item a {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 6px white;
+}
+
+#fly-item h3 {
+    color: white;
+    font-weight: 800;
+    font-size: xx-large;
+    text-shadow: 0 0 15px #00bbf0;
+}
+
+#fly-item h3 a {
+    text-decoration: none;
+}
