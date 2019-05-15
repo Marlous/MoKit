@@ -1,4 +1,5 @@
 /* 解决屏幕比较小的问题 */
+/* 左侧导航栏在宽度小于 690px 时消失 */
 @media screen and (max-width: 690px) {
     #body-left {
         display: none !important;
@@ -17,7 +18,8 @@
     }
 }
 
-@media screen and (max-width: 1130px) {
+/* 顶部搜索栏会在宽度小于 1140px 时消失 */
+@media screen and (max-width: 1140px) {
     #body-right-top {
         display: none;
     }

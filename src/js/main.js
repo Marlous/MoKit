@@ -91,7 +91,12 @@ function autoClickSearchTab() {
 function generateNav(nav_config_path, nav_name) {
 
 
-    // 读取一个 json 文件，读取成功后并执行函数
+    /* 生成导航栏 */
+    var nav_content = "<a class=\"nav-link\" href=\"#" + nav_name + "\">" + nav_name + "</a>";
+    $("#nav").append(nav_content);
+
+
+    /* 读取一个 json 文件，读取成功后并执行函数。生成一个个大的板块。 */
     $.getJSON(nav_config_path, function (json) {
 
         // 生成板块的容器。里面放 board-title 和 board-content。
@@ -120,6 +125,7 @@ function generateNav(nav_config_path, nav_name) {
         })
 
     });
+
 
 }
 
