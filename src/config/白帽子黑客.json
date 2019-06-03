@@ -165,6 +165,11 @@
             "description": "Web 大数据。"
         },
         {
+            "title": "CTFtools",
+            "web": "https://ctftools.com/down/",
+            "description": "CTF 在线工具。"
+        },
+        {
             "title": "CTF 在线工具",
             "web": "http://ctf.ssleye.com/",
             "description": "CTF 在线工具。"
@@ -218,6 +223,66 @@
             "title": "Cookiepedia",
             "web": "https://cookiepedia.co.uk/",
             "description": "检测网站 cookie"
+        },
+        {
+            "title": "CMD5",
+            "web": "https://cmd5.com/",
+            "description": "针对 md5、sha1 等全球通用公开的加密算法进行反向查询。"
+        },
+        {
+            "title": "chinaz",
+            "web": "http://tool.chinaz.com/",
+            "description": "站长工具。"
+        },
+        {
+            "title": "多地 ping 检测",
+            "web": "http://ping.chinaz.com/",
+            "description": "站长工具 ping 检测。"
+        },
+        {
+            "title": "whois",
+            "web": "https://www.whois.com/",
+            "description": "whois。"
+        },
+        {
+            "title": "dirs.cn",
+            "web": "http://www.dirs.cn/",
+            "description": "DNS/A/CName/MX/Whois."
+        },
+        {
+            "title": "domain tools",
+            "web": "https://whois.domaintools.com/",
+            "description": "Whois Lookup."
+        },
+        {
+            "title": "viewdns",
+            "web": "https://viewdns.info/",
+            "description": "非常丰富的域名、IP 等信息查询。"
+        },
+        {
+            "title": "DNSDB",
+            "web": "https://dnsdb.io/zh-cn/",
+            "description": "全球DNS搜索引擎。"
+        },
+        {
+            "title": "IPIP",
+            "web": "https://www.ipip.net/ip.html",
+            "description": "专业 IP 地址查询。"
+        },
+        {
+            "title": "ip2location",
+            "web": "https://www.ip2location.com/",
+            "description": "IP 与地理位置。"
+        },
+        {
+            "title": "GEOIP",
+            "web": "https://geoip.com/",
+            "description": "IP 与地理位置。"
+        },
+        {
+            "title": "纯真 IP",
+            "web": "http://www.cz88.net/",
+            "description": "IP 库。"
         }
     ]
 }

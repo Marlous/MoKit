@@ -7,7 +7,7 @@
 - 可灵活定制成属于自己的导航网站，配置简单。
 - 丰富的搜索引擎集合。
 - 可自动获取网站图标。
-- 响应式布局，当宽度变小时，顶部搜索栏、左侧导航栏会自动消失变为悬浮导航栏。
+- 响应式布局，当宽度变小时，顶部搜索栏、左侧导航栏会自动消失变为悬浮导航栏，具体见效果截图。
 - 效果 1：  
 ![效果](readme_img/图1.PNG)
 - 效果 2：  
@@ -36,7 +36,7 @@ generateNav("config/文档模板.json", "文档模板");
 ## Support - 支持
 ### Contact - 联系
 - By Marlous
-- 邮箱：Goonecat@foxmail.com
+- E-mail：Goonecat@foxmail.com
 
 ## License - 版权信息
 MoKit is released under the GPL license. See [LICENSE](https://github.com/Marlous/WFACat/blob/master/LICENSE) for additional details.

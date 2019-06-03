@@ -35,6 +35,11 @@
             "description": "avataaars generator."
         },
         {
+            "title": "remove.bg",
+            "web": "https://www.remove.bg/",
+            "description": "Remove Image Background."
+        },
+        {
             "title": "短链接网址生成",
             "web": "http://dwz.wailian.work/",
             "description": "短链接网址生成。"
