@@ -45,34 +45,14 @@
             "description": "README 徽章生成。"
         },
         {
-            "title": "chinaz",
-            "web": "http://tool.chinaz.com/",
-            "description": "站长工具。"
-        },
-        {
-            "title": "dirs.cn",
-            "web": "http://www.dirs.cn/",
-            "description": "DNS/A/CName/MX/Whois."
-        },
-        {
-            "title": "domain tools",
-            "web": "https://whois.domaintools.com/",
-            "description": "Whois Lookup."
-        },
-        {
-            "title": "viewdns",
-            "web": "https://viewdns.info/",
-            "description": "非常丰富的域名、IP 等信息查询。"
-        },
-        {
-            "title": "DNSDB",
-            "web": "https://dnsdb.io/zh-cn/",
-            "description": "全球DNS搜索引擎。"
-        },
-        {
             "title": "tiny png",
             "web": "https://tinypng.com/",
             "description": "图片压缩工具。"
+        },
+        {
+            "title": "图片在线缩小工具",
+            "web": "https://www.asqql.com/gifresize/",
+            "description": "图片在线缩小。"
         },
         {
             "title": "codelf",
